@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.login__body
+{
+/* background-image: url({process.env.PUBLIC_URL + '/Image/wiserimg.jpg'}  */
+    /* ); */
+}
+.login__text{
+    text-align: center;
+    margin: 10px 0px;
+}
+.login__text > p{
+    margin: 10px;
+}
+
+.login__text h1{
+    color: blue;
+}
+form{
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+button{
+    background-color: rgb(11, 81, 187);
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+form p{ 
+    text-align: center;
+    font-size: small;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    margin: 15px;
+    outline: none;
+    font-size: small;
+
+  }
